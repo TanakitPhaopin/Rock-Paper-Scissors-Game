@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&family=Roboto&family=Space+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff8d5;
+}
+
+header {
+    background-color: rgb(255, 200, 0);
+    padding: 20px;
+    position: relative;
+}
+
+header h1 {
+    color: #25272E;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.score-board {
+    border: 3px solid rgb(50, 46, 26);
+    border-radius: 4px;
+    width: 200px;
+    margin: 20px auto;
+    color: black;
+    font-size: 46px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.badge {
+    background-color: rgb(255, 89, 0);
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 35px;
+    left: -25px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 35px;
+    right: -35px;
+}
+
+.result {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.choices {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.choice {
+    display: inline-block;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 20px;
+    background-color: rgb(255, 252, 236);
+}
+
+.choice:hover {
+    cursor: pointer;
+}
+
+#action-message {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+    background-color: #d3ffe4;
+    transition: all 0.3s ease;
+}
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+    background-color: #fbc7c9;
+    transition: all 0.5 ease;
+}
+
+.gray-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+    background-color: #b9b9b9;
+    transition: all 0.3s ease;
+}
+
+.again {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgb(255, 103, 103);
+}
+
+.again:hover {
+    cursor: pointer;
+}
+
+.white-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}

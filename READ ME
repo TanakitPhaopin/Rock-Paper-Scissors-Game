@@ -1,0 +1,20 @@
+Key take away:
+
+## HTML
+
+## CSS
+
+- position; relative, absolute (using left, right, top, bottom)
+- transition
+
+## Javascript
+
+- document.getElementByID
+- document.querySelector; to select the class
+- pass value from function to another function
+- array
+- Math.random()*3; to randomize the choices (*3 is for 3 choices) => Math.random() will give answer between 0-1, therefore \*3 will give 0-3
+- Math.floor(Math.random()\*3); Math.floor will give only the integer that does not include decimal regardless of high/low decimals
+- switch statement
+- switch (.... + ....); case: "..+.." action.. break;
+- classList.add; add class to HTML tag
